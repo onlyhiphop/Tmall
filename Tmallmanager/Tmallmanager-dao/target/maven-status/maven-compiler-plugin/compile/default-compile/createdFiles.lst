@@ -1,0 +1,12 @@
+cn\hm\dao\UserMapper.class
+cn\hm\dao\Item_descMapper.class
+cn\hm\App.class
+cn\hm\dao\ContentMapper.class
+cn\hm\dao\Order_shippingMapper.class
+cn\hm\dao\Order_itemMapper.class
+cn\hm\dao\Item_catMapper.class
+cn\hm\dao\OrderMapper.class
+cn\hm\dao\ItemMapper.class
+cn\hm\dao\Item_paramMapper.class
+cn\hm\dao\Item_param_itemMapper.class
+cn\hm\dao\Content_categoryMapper.class

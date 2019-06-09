@@ -1,0 +1,62 @@
+改造工程架构：变成soa（面向服务）结构
+
+1. 将manager-web 层提取出来与 manager同一层。
+    parent改成Tmall-parent
+    project structure --> Module —->  +
+
+2. Tmallmanager-web 层不再依赖service层，而改成依赖 interface 层
+
+3. 这时，manager聚合工程中就没有了war包，全是jar包。
+    所以需要把manager-service改成war包
+
+4. service层只放 mybatis和spring的配置文件
+   web层只放 springmvc的配置文件
+
+5. web.xml只放各层需要的配置
+
+
+变成soa架构后，web表现层和service服务层是不同的工程（都是war包），
+所以要实现商品列表查询需要两个系统之间进行通信。
+如何实现远程通信？
+1. Webservice：效率不高基于soap协议。 项目中不推荐使用
+    但如果是基于两个不同的公司，项目语言不用，可以使用
+
+2. 使用restful形式的服务：http+json 很多项目中应用。但如果调用服务太多，服务调用关系混乱，需要治理服务。
+
+3. 使用dubbo。使用rpc协议进行远程调用，直接使用socket通信。传输效率高，并且可以统计出系统之间的调用关系，调用次数
+    dubbo存在服务管理组件。将所有的服务管理起来，给表现层提供一个统一的调用接口
+
+引入dubbo：
+  1. service的pom文件加入 dubbo依赖
+
+  2. 配置application-service.xml文件，去使用dubbo发布服务
+     设置dubbo的连接的超时时间，默认是1000ms，如果1秒后服务端没有响应就认为连接超时，会重试三次，一般用于debug时使用
+
+  3. web的pom文件加入 dubbo依赖
+     配置application-web.xml文件，去引用dubbo服务
+
+测试：
+    Tmallmanager-service是一个web工程，Tmallmanager-web也是一个web工程，所以需要启动两个Tomcat
+    在Tmallmanager-service父类Tmallmanager上配置8080端口的Tomcat插件，
+    在Tmallmanager-web的pom文件上配置 8081端口的Tomcat插件
+
+1. 先启动Tmallmanager提供服务。
+2. 再启动Tmallmanag-web
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

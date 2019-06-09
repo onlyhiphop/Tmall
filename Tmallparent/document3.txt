@@ -1,0 +1,12 @@
+分页： 使用PageHelper框架
+1. 在parent配置 PageHelper依赖
+2. 在SqlMapConfig.xml中配置 plugins
+
+
+查询所有商品列表，要进行分页处理。
+参数： int page，int rows
+返回值： EasyUIDataGridResult
+1. 在Tmallcommon中创建pojo： EasyUIDataGridResult
+
+
+注意：修改了的项目一定要重新安装更新到本地库： maven install
