@@ -30,6 +30,22 @@
             <scope>test</scope>
         </dependency>
 
+        <!--配置fastDFS-->
+        <dependency>
+            <groupId>fastdfs_client</groupId>
+            <artifactId>fastdfs_client</artifactId>
+        </dependency>
+        <!--文件上传-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <!-- 文件上传组件 -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+
         <!--依赖于interface-->
         <dependency>
             <groupId>cn.hm</groupId>

@@ -1,2 +1,3 @@
 cn\hm\App.class
+cn\hm\service\ItemCatService.class
 cn\hm\service\ItemService.class
