@@ -1,0 +1,38 @@
+前端工程搭建：
+
+ 1. 创建Tmallportal-Web用于前端交互使用功能
+     同样需要继承Tmallparent。 Tomcat端口配置为8083
+
+ 2. manager是后台的管理服务，面对前端的用户，需要重新创建服务。
+
+ 3. 创建Tmallcontent，里面再创建 Tmallcontent-interface、Tmallcontent-service
+
+    注意： Tmallmanager-dao和Tmallmanager-pojo 可以公用，需要再重新创建
+
+ 4. 给Tmallcontent配置依赖
+        依赖common
+        配置Tomcat插件8082端口（推荐运行聚合工程，也就是Tmallcontent而不是Tmallcontent-service）
+
+ 5. Tmallcontent-interface 依赖 Tmallmanager-pojo
+    Tmallcontent-service 依赖 Tmallmanager-dao、Tmallcontent-interface
+
+
+ 6. 可以参考manager
+    注意：dubbo的发布的服务端口需要修改，不同的服务对应不同的端口
+
+
+在service上运行的Tomcat只起到了加载spring容器的作用：
+    测试，不启动Tomcat，也能发布服务。
+    使用一个main方法，使用ClassPathXMLApplicationContext去加载spring容器
+
+
+
+
+
+
+
+
+
+
+
+

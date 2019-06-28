@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tmallcommon/Tmallcommon.iml" filepath="$PROJECT_DIR$/Tmallcommon/Tmallcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallcontent/Tmallcontent.iml" filepath="$PROJECT_DIR$/Tmallcontent/Tmallcontent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallcontent/Tmallcontent-interface/Tmallcontent-interface.iml" filepath="$PROJECT_DIR$/Tmallcontent/Tmallcontent-interface/Tmallcontent-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallcontent/Tmallcontent-service/Tmallcontent-service.iml" filepath="$PROJECT_DIR$/Tmallcontent/Tmallcontent-service/Tmallcontent-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager.iml" filepath="$PROJECT_DIR$/Tmallmanager/Tmallmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-dao/Tmallmanager-dao.iml" filepath="$PROJECT_DIR$/Tmallmanager/Tmallmanager-dao/Tmallmanager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-interface/Tmallmanager-interface.iml" filepath="$PROJECT_DIR$/Tmallmanager/Tmallmanager-interface/Tmallmanager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-pojo/Tmallmanager-pojo.iml" filepath="$PROJECT_DIR$/Tmallmanager/Tmallmanager-pojo/Tmallmanager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-service/Tmallmanager-service.iml" filepath="$PROJECT_DIR$/Tmallmanager/Tmallmanager-service/Tmallmanager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallmanager-web/Tmallmanager-web.iml" filepath="$PROJECT_DIR$/Tmallmanager-web/Tmallmanager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallparent/Tmallparent.iml" filepath="$PROJECT_DIR$/Tmallparent/Tmallparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tmallportal-Web/Tmallportal-Web.iml" filepath="$PROJECT_DIR$/Tmallportal-Web/Tmallportal-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" filepath="$PROJECT_DIR$/fastdfs_client/fastdfs_client.iml" />
+      <module fileurl="file://D:/GitRepo/PageHelp/Mybatis-PageHelper/pagehelper.iml" filepath="D:/GitRepo/PageHelp/Mybatis-PageHelper/pagehelper.iml" />
+    </modules>
+  </component>
+</project>

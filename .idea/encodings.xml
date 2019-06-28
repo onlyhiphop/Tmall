@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://D:/GitRepo/PageHelp/Mybatis-PageHelper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallcommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallcontent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallcontent/Tmallcontent-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallcontent/Tmallcontent-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallmanager/Tmallmanager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallparent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmallportal-web" charset="UTF-8" />
+    <file url="file://D:/software/Maven/repository/com/github/pagehelper/pagehelper/3.4.2" charset="UTF-8" />
+  </component>
+</project>

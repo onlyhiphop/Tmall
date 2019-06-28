@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs_client" />
+        <module name="pagehelper" />
+        <module name="Tmallcommon" />
+        <module name="Tmallcontent-interface" />
+        <module name="Tmallcontent-service" />
+        <module name="Tmallmanager-dao" />
+        <module name="Tmallmanager-interface" />
+        <module name="Tmallmanager-pojo" />
+        <module name="Tmallmanager-service" />
+        <module name="Tmallmanager-web" />
+        <module name="Tmallportal-Web" />
+      </profile>
+      <profile name="Annotation profile for Tmall-parent" enabled="true">
+        <sourceOutputDir name="../Tmallnanager-dao/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../Tmallnanager-dao/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Tmallnanager-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fastdfs_client" target="1.5" />
+      <module name="pagehelper" target="1.6" />
+      <module name="Tmallcommon" target="1.7" />
+      <module name="Tmallcontent" target="1.7" />
+      <module name="Tmallcontent-interface" target="1.7" />
+      <module name="Tmallcontent-service" target="1.7" />
+      <module name="Tmallmanager" target="1.7" />
+      <module name="Tmallmanager-dao" target="1.7" />
+      <module name="Tmallmanager-interface" target="1.7" />
+      <module name="Tmallmanager-pojo" target="1.7" />
+      <module name="Tmallmanager-service" target="1.7" />
+      <module name="Tmallmanager-web" target="1.7" />
+      <module name="Tmallnanager-dao" target="1.7" />
+      <module name="Tmallparent" target="1.7" />
+      <module name="Tmallportal-web" target="1.7" />
+      <module name="Tmallportal-Web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

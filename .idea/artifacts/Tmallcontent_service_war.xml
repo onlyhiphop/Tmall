@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Tmallcontent-service:war">
+    <output-path>$PROJECT_DIR$/Tmallcontent/Tmallcontent-service/target</output-path>
+    <root id="archive" name="Tmallcontent-service.war">
+      <element id="artifact" artifact-name="Tmallcontent-service:war exploded" />
+    </root>
+  </artifact>
+</component>
